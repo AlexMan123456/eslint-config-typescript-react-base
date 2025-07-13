@@ -1,0 +1,33 @@
+{
+  "name": "@alextheman/eslint-config-typescript-react-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '*.{mjs,json}' && ESLINT_MODE=fix eslint --fix '*.{mjs,json}'",
+    "lint": "ESLINT_MODE=lint eslint '*.{mjs,json}' && prettier --check '*.{mjs,json}'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "peerDependencies": {
+    "@alextheman/eslint-config-typescript-base": "^1.0.3",
+    "@typescript-eslint/eslint-plugin": "^8.36.0",
+    "@typescript-eslint/parser": "^8.36.0",
+    "eslint": "^9.31.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "prettier": "^3.6.2",
+    "eslint-plugin-react": "^7.37.5",
+    "typescript-eslint": "^8.36.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.36.0",
+    "@typescript-eslint/parser": "^8.36.0",
+    "eslint": "^9.31.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20"
+  }
+}
