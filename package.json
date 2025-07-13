@@ -1,8 +1,8 @@
 {
   "name": "@alextheman/eslint-config-typescript-react-base",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "eslint.config.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write '*.{mjs,json}' && ESLINT_MODE=fix eslint --fix '*.{mjs,json}'",
