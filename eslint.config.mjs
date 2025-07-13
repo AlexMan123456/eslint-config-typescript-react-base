@@ -1,4 +1,3 @@
-import js from "@eslint/js";
 import globals from "globals";
 import reactHooks from "eslint-plugin-react-hooks";
 import reactRefresh from "eslint-plugin-react-refresh";
@@ -6,9 +5,9 @@ import reactPlugin from "eslint-plugin-react";
 import alexBaseConfig from "@alextheman/eslint-config-typescript-base";
 
 export default [
-  js.configs.recommended,
   ...alexBaseConfig,
   {
+    name: "@alextheman/eslint-config-typescript-react-base",
     languageOptions: {
       ecmaVersion: 2020,
       globals: globals.browser,
